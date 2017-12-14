@@ -1,16 +1,15 @@
-apiVersion: apps/v1beta1
-kind: Deployment
+apiVersion: extensions/v1beta1
+kind: DaemonSet
 metadata:
-  name: nginx-a
+  name: nginx-dm
+  namespace: default
+  labels:
+    app: nginx-dm
 spec:
-  replicas: 1
   template:
     metadata:
-      name: nginx
       labels:
-        app: nginx
-      annotations:
-        app: nginx
+        name: busy-dm
     spec:
       containers:
       - name: nginx
