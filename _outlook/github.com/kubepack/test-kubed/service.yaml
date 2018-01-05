@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   annotations:
-    git-commit-hash: 53b7c520be42f5958bd013e1bf153fe040674188
+    git-commit-hash: 78379dd82a991444ce18b8e61247761e13237cce
   labels:
     app: kubed
   name: kubed-operator

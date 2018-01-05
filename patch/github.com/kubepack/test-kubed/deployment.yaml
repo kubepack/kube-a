@@ -1,2 +1,2 @@
-metadata:
-  namespace: default
+spec:
+  replicas: 2
