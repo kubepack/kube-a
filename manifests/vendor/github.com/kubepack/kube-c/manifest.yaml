@@ -1,4 +1,4 @@
-package: github.com/packsh/tasty-kube
+package: github.com/kubepack/kube-c
 owners:
 - name: Appscode
   email: team@appscode.com
