@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   annotations:
-    git-commit-hash: afeb1b16e360d0b7be8b3c1509890a7ddb604d11
+    git-commit-hash: b85e55591f975eae678879279cfef63f830ca150
   name: test-ebs
 spec:
   containers:
