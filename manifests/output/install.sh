@@ -2,7 +2,7 @@
 
 
 pushd manifests/output/github.com/kubepack/kube-b
-./manifests/app/install.sh
+kubectl apply -R -f .
 popd
 			
 
