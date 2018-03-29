@@ -1,0 +1,23 @@
+apiVersion: extensions/v1beta1
+kind: DaemonSet
+metadata:
+  annotations:
+    git-commit-hash: afeb1b16e360d0b7be8b3c1509890a7ddb604d11
+  labels:
+    app: nginx-dm
+  name: nginx-dm
+  namespace: default
+spec:
+  template:
+    metadata:
+      labels:
+        name: busy-dm
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        ports:
+        - containerPort: 80
+        resources:
+          limits:
+            cpu: 10m

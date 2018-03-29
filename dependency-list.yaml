@@ -1,3 +1,5 @@
 items:
   - package: github.com/kubepack/kube-b
-    branch: test-1
+    branch: test-11
+  - package: github.com/kubepack/kube-c
+    branch: test-11
