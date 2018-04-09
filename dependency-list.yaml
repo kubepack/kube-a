@@ -1,0 +1,8 @@
+apiVersion: manifest.k8s.io/v1alpha1
+kind: Manifest
+items:
+- package: github.com/kubepack/kube-b
+  branch: test-13
+- package: github.com/kubepack/kube-c
+  branch: test-13
+
